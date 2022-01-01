@@ -1,22 +1,22 @@
 {
-  "name": "my-helpers",
+  "name": "my-helpmates",
   "version": "1.0.0",
-	"repository": "https://github.com/bhsoyket/my-helpers",
-	"description": "A Small Helpers Utility Functions For Day To Day Node Js Projects.",
+  "repository": "https://github.com/bhsoyket/my-helpers",
+  "description": "A Small Helpers Utility Functions For Day To Day Node Js Projects.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*.test.js --timeout 15000 --exit",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "keywords": [
-		"javascript",
+    "javascript",
     "js",
     "Nodejs",
-		"utility",
-		"functions",
-		"utilities",
-		"helpers",
-		"helper functions"
+    "utility",
+    "functions",
+    "utilities",
+    "helpers",
+    "helper functions"
   ],
   "author": "Belayet Hossain",
   "license": "MIT",

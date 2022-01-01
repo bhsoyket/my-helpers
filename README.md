@@ -1,23 +1,23 @@
-# my-helpers
+# my-helpmates
 > Still documenting :)
 
 ## Install
 
 ```sh
-$ npm install my-helpers --save
+$ npm install my-helpmates --save
 ```
 
 ## Usage
 
 
 ```js
-import helpers from 'my-helpers';
+import helpers from 'my-helpmates';
 ```
 
 or
 
 ```js
-import { jwt } from 'my-helpers';
+import { jwt } from 'my-helpmates';
 ```
 
 ```js
