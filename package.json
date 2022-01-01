@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.test.js --timeout 15000 --exit"
   },
   "keywords": [
     "helpers"
@@ -12,6 +12,8 @@
   "author": "Belayet Hossain",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.3.4",
     "jsonwebtoken": "^8.5.1"
-  }
+  },
+  "devDependencies": {}
 }
