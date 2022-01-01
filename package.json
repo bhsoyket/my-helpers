@@ -5,7 +5,8 @@
 	"description": "A Small Helpers Utility Functions For Day To Day Node Js Projects.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*.test.js --timeout 15000 --exit"
+    "test": "mocha test/*.test.js --timeout 15000 --exit",
+    "prepublish": "npm test"
   },
   "keywords": [
 		"javascript",
@@ -22,6 +23,5 @@
   "dependencies": {
     "chai": "^4.3.4",
     "jsonwebtoken": "^8.5.1"
-  },
-  "devDependencies": {}
+  }
 }
