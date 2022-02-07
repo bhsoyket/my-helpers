@@ -1,5 +1,4 @@
 const jwt = require('../src/helpers/jwt');
-const chai = require('chai');
 const { assert } = require('chai');
 
 
